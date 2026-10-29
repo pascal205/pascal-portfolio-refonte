@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Pascal AMETEPE — Développeur full-stack</title>
+  <meta name="description" content="Développeur full-stack : React, PHP, SQL. Je conçois et développe des solutions numériques modernes et efficaces, de la résolution d'un problème à une vraie solution.">
+  <meta name="theme-color" content="#0B1220">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Pascal AMETEPE — Développeur full-stack">
+  <meta property="og:description" content="Du code avec du caractère. Interfaces précises, systèmes bien conçus.">
+  <meta property="og:image" content="imagedev.png">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Aller au contenu principal</a>
+
+  <header class="site-header">
+    <a class="brand" href="#haut">Pascal<span>/</span>Portfolio</a>
+
+    <button class="menu-toggle" id="menu-toggle" type="button"
+            aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-menu" id="nav-menu" aria-label="Navigation principale">
+      <ul class="menu">
+        <li><a href="#apropos" aria-current="location">À propos</a></li>
+        <li><a href="#projets" class="is-soon" aria-disabled="true">Projets</a></li>
+        <li><a href="#experiences" class="is-soon" aria-disabled="true">Expériences</a></li>
+      </ul>
+      <!-- TODO : remplacer par ton adresse mail (mailto:) ou ton LinkedIn -->
+      <a class="btn btn-outline" href="https://github.com/pascal205" target="_blank" rel="noopener">Parlons-en ↗</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ===================== INTRO ===================== -->
+    <section class="intro" id="haut">
+      <video class="video-intro" autoplay muted loop playsinline preload="metadata"
+             poster="imagedev.png" aria-hidden="true" tabindex="-1">
+        <source src="uhd.mp4" type="video/mp4">
+      </video>
+      <div class="intro__scrim" aria-hidden="true"></div>
+
+      <div class="container">
+        <p class="intro-title">Développeur indépendant · 2024—aujourd'hui</p>
+
+        <h1 class="intro__title">Du code avec<br><span>du caractère</span></h1>
+
+        <p class="intro-sub">
+          Je conçois et développe des solutions numériques modernes et efficaces —
+          de la résolution d'un problème à une vraie solution numérique.
+        </p>
+
+        <div class="btn-grid">
+          <a class="btn btn-decouv" href="#apropos">Découvrir mes projets ↘</a>
+          <a class="btn btn-contact" href="https://github.com/pascal205" target="_blank" rel="noopener">Me contacter</a>
+        </div>
+      </div>
+
+      <div class="logo-code" aria-hidden="true">
+        <div class="code-badge">
+          <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3"
+               stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 18 10 32l12 14"></path>
+            <path d="M42 18l12 14-12 14"></path>
+            <path d="M36 12 28 52"></path>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== À PROPOS ===================== -->
+    <section class="apropos" id="apropos" aria-labelledby="titre-apropos">
+      <div class="container">
+
+        <div class="title">
+          <div class="title-left">
+            <p class="intro-title">01 / Quelques repères</p>
+            <h2 class="sect-title" id="titre-apropos">Pensée<br>avec intention</h2>
+          </div>
+          <p class="title-right">
+            Un développeur attentif aux derniers 10 % : ce moment où un logiciel
+            cesse d'être simplement fonctionnel pour devenir véritablement pensé.
+          </p>
+        </div>
+
+        <div class="body">
+          <div class="image-bord">
+            <div class="image">
+              <img src="photo.jpg" alt="Portrait de Pascal AMETEPE, développeur full-stack"
+                   width="400" height="400" loading="lazy">
+            </div>
+          </div>
+
+          <div class="present">
+            <h3>Je suis Pascal — développeur full-stack avec un faible pour les interfaces précises et expressives.</h3>
+            <p>
+              Depuis huit ans, j'aide des équipes ambitieuses à transformer des idées complexes
+              en produits que l'on aime vraiment utiliser. Mon travail se situe à la croisée
+              de la réflexion produit, des systèmes bien conçus et d'un front-end expressif.
+              Quand je quitte le clavier, vous me trouverez à chiner de vieux livres de design,
+              à traverser la ville à vélo ou à préparer une quantité déraisonnable de café.
+            </p>
+            <p class="present__name">Pascal — AMETEPE</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== TECHNOLOGIES ===================== -->
+    <section class="technologie" id="technologies" aria-labelledby="titre-techno">
+      <div class="container">
+
+        <div class="tech-left">
+          <p class="intro-title">02 / Quelques repères</p>
+          <h2 class="sect-title" id="titre-techno">De bons outils.<br>Un meilleur<br>jugement.</h2>
+        </div>
+
+        <div class="tech-right">
+          <p class="tech-lead">
+            Des technologies soigneusement choisies et bien maîtrisées
+            pour un rendu moderne et efficace.
+          </p>
+
+          <div class="techno">
+            <div class="marquee">
+              <div class="marquee__track">
+                <div class="marquee__set">
+                  <div class="btn-techno"><img src="iconeSvg/react.svg" alt="" width="20" height="20" loading="lazy"><span>React</span></div>
+                  <div class="btn-techno"><img src="iconeSvg/php.svg" alt="" width="20" height="20" loading="lazy"><span>PHP</span></div>
+                  <div class="btn-techno"><img src="iconeSvg/sql.svg" alt="" width="20" height="20" loading="lazy"><span>SQL</span></div>
+                  <div class="btn-techno"><img src="iconeSvg/mysql.svg" alt="" width="20" height="20" loading="lazy"><span>MySQL</span></div>
+                  <div class="btn-techno"><img src="iconeSvg/supabase.svg" alt="" width="20" height="20" loading="lazy"><span>Supabase</span></div>
+                </div>
+                <div class="marquee__set" aria-hidden="true">
+                  <div class="btn-techno"><img src="iconeSvg/react.svg" alt="" width="20" height="20"><span>React</span></div>
+                  <div class="btn-techno"><img src="iconeSvg/php.svg" alt="" width="20" height="20"><span>PHP</span></div>
+                  <div class="btn-techno"><img src="iconeSvg/sql.svg" alt="" width="20" height="20"><span>SQL</span></div>
+                  <div class="btn-techno"><img src="iconeSvg/mysql.svg" alt="" width="20" height="20"><span>MySQL</span></div>
+                  <div class="btn-techno"><img src="iconeSvg/supabase.svg" alt="" width="20" height="20"><span>Supabase</span></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="marquee marquee--reverse">
+              <div class="marquee__track">
+                <div class="marquee__set">
+                  <div class="btn-techno"><img src="iconeSvg/java.svg" alt="" width="20" height="20" loading="lazy"><span>Java</span></div>
+                  <div class="btn-techno"><img src="iconeSvg/html.svg" alt="" width="20" height="20" loading="lazy"><span>HTML/CSS</span></div>
+                  <div class="btn-techno"><img src="iconeSvg/javascript.svg" alt="" width="20" height="20" loading="lazy"><span>JavaScript</span></div>
+                  <div class="btn-techno"><img src="iconeSvg/bootstrap.svg" alt="" width="20" height="20" loading="lazy"><span>Bootstrap</span></div>
+                  <div class="btn-techno"><img src="iconeSvg/git.svg" alt="" width="20" height="20" loading="lazy"><span>Git</span></div>
+                </div>
+                <div class="marquee__set" aria-hidden="true">
+                  <div class="btn-techno"><img src="iconeSvg/java.svg" alt="" width="20" height="20"><span>Java</span></div>
+                  <div class="btn-techno"><img src="iconeSvg/html.svg" alt="" width="20" height="20"><span>HTML/CSS</span></div>
+                  <div class="btn-techno"><img src="iconeSvg/javascript.svg" alt="" width="20" height="20"><span>JavaScript</span></div>
+                  <div class="btn-techno"><img src="iconeSvg/bootstrap.svg" alt="" width="20" height="20"><span>Bootstrap</span></div>
+                  <div class="btn-techno"><img src="iconeSvg/git.svg" alt="" width="20" height="20"><span>Git</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
